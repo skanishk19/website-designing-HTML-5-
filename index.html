@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Contact Us Page Container  -->
+    <div class="container">
+      <h1>CONTACT US</h1>
+      <div class="address-section">
+        <p>ADDRESS :</p>
+        <div class="address-details">
+          <p class="address">JM66+9JP, Shilpgram, Udaipur, Rajasthan 313001</p>
+          <div class="contact-details">
+            <p class="phone-number">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/724/724664.png"
+                alt="Phone-icon"
+              />
+              +91 1234567890
+            </p>
+            <p class="mail">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+                alt="Email-icon"
+              />
+              <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </p>
+          </div>
+          <a href="#" class="location-icon"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
+              alt="Location-icon"
+              width="48px"
+          /></a>
+        </div>
+      </div>
+      <!-- User Form  -->
+      <div class="form-map-section">
+        <form>
+          <input
+            type="text"
+            placeholder="Name :"
+            name="name"
+            pattern="[A-Za-z]{3,6}"
+            title="Name must be 3 to 6 letters only"
+            required
+          />
+
+          <input type="text" placeholder="Company :" name="company" required />
+
+          <input type="email" placeholder="Email :" name="email" required />
+
+          <input
+            type="text"
+            placeholder="Mobile :"
+            name="mobile"
+            pattern="[0-9]{10}"
+            title="Mobile number must be 10 digits only"
+            maxlength="10"
+            required
+          />
+
+          <textarea placeholder="Message :" name="message" required></textarea>
+
+          <input type="submit" value="Send" />
+        </form>
+        <!-- Embed Google Map  -->
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110334.85532510001!2d73.62247032237696!3d24.608263766761098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e529ba144b67%3A0x228d3f1bb88365c4!2sShilpgram!5e1!3m2!1sen!2sin!4v1754284104081!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <!-- Social Media Links  -->
+          <div class="social-links">
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+                alt="Facebook-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+                alt="Twitter-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="Linkedin-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+                alt="GitHub-icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
